@@ -1,4 +1,4 @@
-from student import Student
+from university.student import Student
 
 def main():
     print("Program starting")
