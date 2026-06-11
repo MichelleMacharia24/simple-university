@@ -9,7 +9,7 @@ class Course():
         self.id = id
         self.credits = credits
 
-        self.students = dict{}  # dict id of students in the class.
+        self.students = {}  # dict id of students in the class.
 
     def add_student(self, student_id, mark = None):
         
@@ -36,8 +36,5 @@ class Course():
         s += f"Students: {str(self.students)}"
         return s
     
-def main():
-
-    course1 = 
 
 
